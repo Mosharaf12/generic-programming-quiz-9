@@ -1,22 +1,28 @@
 .header{
     padding-right: 200px;
-    background-color: rgb(239, 239, 155);
+    background-color: rgb(239, 229, 226);
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
-    padding: 10px; 
+    justify-content: space-between;
     
-}
-.title{
-    padding-left: 140px;
-
+    
 }
 
 .header a{
-
+    margin-right: 40px;
     text-decoration: none;
+    
     
   
 }
 .active{
 
     color: blue;
+}
+.header-details{
+    padding-left: 130px;
+}
+.navber-details{
+    
 }
