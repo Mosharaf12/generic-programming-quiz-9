@@ -1,10 +1,22 @@
 .header{
+    padding-right: 200px;
+    background-color: rgb(239, 239, 155);
     display: flex;
-    align-items: center;
+    padding: 10px; 
     
+}
+.title{
+    padding-left: 140px;
+
 }
 
 .header a{
+
     text-decoration: none;
     
+  
+}
+.active{
+
+    color: blue;
 }
