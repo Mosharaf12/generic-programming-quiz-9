@@ -20,7 +20,7 @@ const Home = () => {
                 <p className='py-6'>A quiz is a game or competition in which someone  tests your knowledge by asking <br /> you questions. We'll have a quiz at the end of the show.</p>
             </div> 
         </div>
-        <div className='grid grid-cols-4 rounded-lg px-5'>
+        <div className='md:grid grid-cols-4 rounded-lg px-5 my-5'>
                 {
                     items.map(item=> <Item
                     key={item.id}
