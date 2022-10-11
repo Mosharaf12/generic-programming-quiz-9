@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <nav className='header'>
              <div className='header-details'>
-                <h2 className='text-3xl font-bold text-pink-600'>Generic Programming QuiZ</h2>
+                <h2 className='text-3xl font-bold text-purple-600'>Generic Programming QuiZ</h2>
 
              </div>
              <div className='navber-details'>
