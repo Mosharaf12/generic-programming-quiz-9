@@ -4,6 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 import logo from '../../images/backgroundimg.jpg'
 import Item from '../Item/Item';
 import Topics from '../Topics/Topics';
+import TopicsItems from '../TopicsItems/TopicsItems';
 import './home.css'
 
 const Home = () => {
@@ -20,15 +21,7 @@ const Home = () => {
                 <p className='py-6'>A quiz is a game or competition in which someone  tests your knowledge by asking <br /> you questions. We'll have a quiz at the end of the show.</p>
             </div> 
         </div>
-        <div className='md:grid lg:grid-cols-4 md:grid-cols-2 rounded-lg px-5 my-5'>
-                {
-                    items.map(item=> <Item
-                    key={item.id}
-                    item={item}
-                    ></Item>)
-                }
-
-            </div>
+       <TopicsItems></TopicsItems>
        </div>
     );
 };

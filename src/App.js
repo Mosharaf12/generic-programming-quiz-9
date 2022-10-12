@@ -6,6 +6,7 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import Topics from './components/Topics/Topics';
+import TopicsItems from './components/TopicsItems/TopicsItems';
 import Main from './layouts/Main';
 
 function App() {
@@ -37,6 +38,16 @@ function App() {
           },
           element: <Topics></Topics>
         },
+        {
+          path:'/topics',
+          loader:async()=>{
+            return fetch(`https://openapi.programming-hero.com/api/quiz`)
+          },
+          element:<TopicsItems></TopicsItems>
+
+        },
+        
+    
         {
           path: '/statistics',
           loader:async()=>{
