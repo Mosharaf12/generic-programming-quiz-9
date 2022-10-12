@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Item = ({item}) => {
-    const {name,logo, total}=item
+    const {name,logo, total, id}=item
     return (
         <div>
              <div className="max-w-xs rounded-md shadow-md bg-gray-50 text-gray-800">
@@ -12,7 +13,7 @@ const Item = ({item}) => {
             <p>Total: {total}</p>
 		
 		</div>
-		<button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-sky-600 text-gray-50">Take Quiz</button>
+		<Link to={`/topics/${id}`} type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-sky-600 text-gray-50">Take Quiz</Link>
 	</div>
 </div>
         </div>
