@@ -37,10 +37,6 @@ function App() {
           },
           element: <Topics></Topics>
         },
-        // {
-        //   path: '/topics',
-        //   element: <Topics></Topics>
-        // },
         {
           path: '/statistics',
           loader:async()=>{

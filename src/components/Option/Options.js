@@ -8,7 +8,7 @@ const Options = ({option, correctAnswer}) => {
             toast("Answer is correct!");
         }
         else{
-            toast("Answer is wrong!");
+            toast("Wrong Answer!");
         }
     }
     
